@@ -1,0 +1,218 @@
+body {
+    font-family: "Monstserrat", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+#topbar {
+    background-color: #d32f2f;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+}
+
+#topbar li {
+    display: inline-block;
+}
+
+#topbar li a {
+    color: #fff;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+#topbar li a i {
+    color: black;
+    margin-right: 5px;
+}
+
+/* css untuk header */
+
+header {
+    padding: 30px;
+}
+
+.brand {
+    display: flex;
+}
+
+.brand img {
+    margin-right: 20px;
+}
+
+.brand .brand-name h1 {
+    font-size: 25px;
+    color: #d32f2f;
+    text-transform: uppercase;
+}
+
+.brand .brand-name h3 {
+    font-size: 18px;
+    font-family: Raleway, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #888888;
+}
+
+.pembungkus-searchbox {
+    display: flex;
+    align-items: center;
+}
+
+.searchbox {
+    width: 100%;
+}
+
+.btn.btn-utama {
+    background-color: #d32f2f;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.btn.btn.btn-utama:hover {
+    background-color: #740101;
+}
+
+/* CSS untuk navbar */
+
+.navbar {
+    padding: 0;
+    border-bottom: 5px solid black;
+}
+
+.nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+}
+
+.bg-merah {
+    background-color: #d32f2f!important;
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
+    background-color: black;
+    color: #fff;
+}
+
+.active {
+    background-color: black;
+    color: #d32f2f;
+}
+
+li.nav-item.active a{
+    color: #d32f2f;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+/* css untuk slider hero area */
+
+#hero-area {
+    position: relative;
+}
+
+#slider-hero-nav .owl-prev,
+#slider-hero-nav .owl-next {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    border: none;
+    background-color: #d32f2f;
+    color: #fff;
+    outline: none;
+    padding: 10px 25px;
+    font-size: 20px;
+    transition: background-color 0.3s;
+}
+
+#slider-hero-nav .owl-prev {
+    left: 0;
+    border-radius: 0 50px 50px 0;
+}
+
+#slider-hero-nav .owl-next {
+    right: 0;
+    border-radius: 50px 0 0 50px;
+}
+
+#slider-hero-nav .owl-prev:hover,
+#slider-hero-nav .owl-next:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
+#hero-area .slider-item-content {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-250%, 100%);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    text-align: center;
+    font-family: Raleway,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 50%;
+}
+
+#hero-area .slider-item-content h2 {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+#hero-area .slider-item-content p {
+    font-size: 15px;
+}
+
+/* CSS Untuk section sambutan */
+
+#sambutan {
+    margin: 60px 0;
+}
+
+#sambutan h2 {
+    color: #d32f2f;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+#sambutan h3 {
+    color: #d32f2f;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+#sambutan p {
+    font-size: 16px;
+    font-family: Raleway, sans-serif;
+    font-size: 500;
+    line-height: 28px;
+}
+
+/* css copyright */
+
+.copyright {
+    background-color: rgb(74, 73, 73);
+    color: #fff;
+    padding-bottom: 1px;
+}
+
+.copyright p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

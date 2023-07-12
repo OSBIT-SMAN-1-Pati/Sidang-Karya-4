@@ -1,0 +1,165 @@
+body {
+    font-family: "Monstserrat", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+#topbar {
+    background-color: #d32f2f;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+}
+
+#topbar li {
+    display: inline-block;
+}
+
+#topbar li a {
+    color: #fff;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+#topbar li a i {
+    color: black;
+    margin-right: 5px;
+}
+
+/* css untuk header */
+
+header {
+    padding: 30px;
+}
+
+.brand {
+    display: flex;
+}
+
+.brand img {
+    margin-right: 20px;
+}
+
+.brand .brand-name h1 {
+    font-size: 25px;
+    color: #d32f2f;
+    text-transform: uppercase;
+}
+
+.brand .brand-name h3 {
+    font-size: 18px;
+    font-family: Raleway, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #888888;
+}
+
+.pembungkus-searchbox {
+    display: flex;
+    align-items: center;
+}
+
+.searchbox {
+    width: 100%;
+}
+
+.btn.btn-utama {
+    background-color: #d32f2f;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.btn.btn.btn-utama:hover {
+    background-color: #740101;
+}
+
+/* CSS untuk navbar */
+
+.navbar {
+    padding: 0;
+    border-bottom: 5px solid black;
+}
+
+.nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+}
+
+.bg-merah {
+    background-color: #d32f2f!important;
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
+    background-color: black;
+    color: #fff;
+}
+
+.active {
+    background-color: black;
+    color: #d32f2f;
+}
+
+li.nav-item.active a{
+    color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+
+/* CSS untuk jadwal mata pelajaran */
+
+.jadwal h3 {
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 10px 13px;
+}
+
+.jadwal h4 {
+    font-family: 'poppins', sans-serif;
+    background-color: #fff;
+    padding: 10px 13px;
+}
+
+.jadwal table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.jadwal th, td {
+    border: 2px solid black;
+    padding: 8px;
+}
+
+.jadwal th {
+    background-color: #d32f2f;
+    color: #fff;
+}
+/* css copyright */
+
+.copyright {
+    background-color: rgb(74, 73, 73);
+    color: #fff;
+    padding-bottom: 1px;
+}
+
+.copyright p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
